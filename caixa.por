@@ -5,7 +5,7 @@ programa
 		real saldo = 1000.00
 		real valor
 		inteiro opcao = 0
-
+    // inicio
 		// O programa executa continuamente até o usuário escolher a opção 4 (Sair)
 		enquanto (opcao != 4)
 		{
@@ -67,6 +67,7 @@ programa
 				caso contrario:
 					escreva("Opção inválida! Escolha um número de 1 a 4.\n")
 					pare
+          // pare
 			}
 		}
 	}
